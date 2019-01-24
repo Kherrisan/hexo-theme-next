@@ -1,6 +1,6 @@
 /* global NexT, CONFIG */
 
-$(document).ready(function() {
+var boostrap=function() {
 
   $(document).trigger('bootstrap:before');
 
@@ -50,4 +50,8 @@ $(document).ready(function() {
   CONFIG.motion.enable && NexT.motion.integrator.bootstrap();
 
   $(document).trigger('bootstrap:after');
-});
+};
+
+$(document).ready(boostrap);
+
+InstantClick.on("change",boostrap);

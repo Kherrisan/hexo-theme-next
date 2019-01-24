@@ -1,4 +1,4 @@
-$(document).ready(function() {
+var exturl=function() {
 
   // Create Base64 Object
   /* eslint-disable */
@@ -11,4 +11,8 @@ $(document).ready(function() {
     return false;
   });
 
-});
+};
+
+$(document).ready(exturl);
+
+InstantClick.on("change",exturl);

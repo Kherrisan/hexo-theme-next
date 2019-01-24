@@ -1,6 +1,7 @@
 /* global NexT, CONFIG */
 
 $(document).ready(function() {
+  console.log("post-detail document.ready");
 
   function initScrollSpy() {
     var tocSelector = '.post-toc';
