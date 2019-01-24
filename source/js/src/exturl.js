@@ -15,4 +15,4 @@ var exturl=function() {
 
 $(document).ready(exturl);
 
-InstantClick.on("change",exturl);
+//InstantClick.on("change",exturl);

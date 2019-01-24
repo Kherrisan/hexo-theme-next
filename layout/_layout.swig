@@ -94,9 +94,6 @@
     {% endif %}
   </div>
 
-    <script src="https://cdn.bootcss.com/instantclick/3.0.1/instantclick.min.js" data-no-instant></script>
-  <script data-no-instant>InstantClick.init();</script>
-
   {% include '_scripts/vendors.swig' %}
   {% include '_scripts/commons.swig' %}
 
@@ -122,5 +119,6 @@
   {% include '_third-party/bookmark.swig' %}
   {% include '_third-party/copy-code.swig' %}
   {% include '_third-party/pdf.swig' %}
+
 </body>
 </html>

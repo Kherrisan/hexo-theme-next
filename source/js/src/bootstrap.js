@@ -54,4 +54,4 @@ var boostrap=function() {
 
 $(document).ready(boostrap);
 
-InstantClick.on("change",boostrap);
+//InstantClick.on("change",boostrap);
